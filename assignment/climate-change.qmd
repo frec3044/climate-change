@@ -51,6 +51,11 @@ How does CO2 vary within a year?  What month is it at max?  Min?  What might exp
 
 **Answer 2:**
 
+```{r}
+
+
+```
+
 
 
 ## Global Temperature Data
@@ -80,11 +85,21 @@ You'll need to determine the file's delimiter and any comments or skips. You wil
 
 **Answer 4:**
 
+```{r}
+
+
+```
+
 **Question 5:**
 
 Plot the trend in global mean temperatures over time.  Describe what you see in the plot and how you interpret the patterns you observe.
 
 **Answer 5:**
+
+```{r}
+
+
+```
 
 ## Evaluating the evidence for a "Pause" in warming?
 
@@ -100,20 +115,29 @@ Use a search engine (e.g., Google) or a chat LLM to find out how to calculate a 
 
 **Question 7:**
 
-- What is the meaning of "5-year average" vs. "annual average"?
-- Create a data frame from the annual temperature anomaly data (from Question 4) with three new columns: 5-year running averages, 10-year running averages, and 20-year running averages.
+Create a data frame from the annual temperature anomaly data (from Question 4) with three new columns: 5-year running averages, 10-year running averages, and 20-year running averages.  Use tidyverse functions where appropriate (e.g., mutate).
 
 **Answer 7:**
 
+```{r}
+
+
+```
+
 **Question 8:**
 
-Plot the different averages on the *same plot* and describe what differences you see and why.  
+Plot the data and three different running averages on the *same plot* and describe what differences you see and why (there should be four lines on your plot).  To get your data ready for the plot, you should use pivot_longer to make a long format data frame.    
 
 **Answer 8:**
 
+```{r}
+
+
+```
+
 **Question 9:**
 
-By examining the data here, what evidence do you find or not find for such a pause? 
+By examining the data here, what evidence do you find or not find for such a pause between 1998 and 2012? 
 
 **Answer 9:**
 
@@ -144,16 +168,13 @@ You can click on the file in your Files pane to view it before reading into R.
 
 The broad question is: how do recent atmospheric CO2 levels compare to historical levels?
 
-Your answer to Question 10 is going to be a mix of code chunks and text that you put below in "Answer 10:"
-
-- Describe the data set: what are the columns and units? Where do the numbers come from? 
-- What is the temporal resolution of the data? 
 - Read in and prepare data for analysis.   
-- Reverse the ordering to create a chronological record so that each measurement is associcated with calender year.
-- Plot data.  
+- Reverse the ordering of the ice core year data so that each measurement is associated with calender year (it is ok to have negative years for years before 0 A.D.).
+- Plot data so that the most recent time period is on the right side of the plot.
 - Combine this time series with the Mauna Loa data (the Warm-up exercise in this assignment).  You will use "bind_rows()".
-- Plot the combined data. (the most recent time period must be on the right side of the plot).        
-- Describe your conclusions to the question "How do recent atmospheric CO2 levels compare to historical levels?" using your plot as supporting evidence.   
+- Plot the combined data. 
+  
+Note: for full credit the most recent time period must be on the right side of the plot; if you are unable to do this, partial credit is provided.      
 
 **Answer 10:**
 
@@ -162,9 +183,19 @@ Your answer to Question 10 is going to be a mix of code chunks and text that you
 
 ```
 
+**Question 11:**
+
+Describe your conclusions to the question "How do recent atmospheric CO2 levels compare to historical levels?" using your plot as supporting evidence.
+
+**Answer 11:**
+
+
 # Render and committing
 
 Remember to Render your document as HTML and comment+push to GitHub your code and rendered HTML that was created when you knitted the document.  Your GitHub repository should have multiple commits with informative commit messages.
+
+Potential issues with rendering
+  - Be sure that you don't have any `install.packages()` lines in your code.  This will cause it to fail at the Render step.  You should install packages once and then remove the `install.packages()` code.
 
 # Attribution
 

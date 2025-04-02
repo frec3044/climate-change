@@ -1,5 +1,4 @@
-
-# Climate change module
+# Climate Change Module
 
 ## Overview
 
@@ -28,27 +27,29 @@ What is the evidence for a changing climate? In this unit, we will examine some 
   - Become familiar with reading data into R and generating plots in `ggplot`
   - Demonstrate ability to use RStudio and GitHub workflows to demonstrate reproducible output.
   - Demonstrate ability to communicate clearly in code, written text, and visual formats.
+  
 ## Requirements:
 
   - `tidyverse`
   - `R`
   - RStudio
   - Git & GitHub.
+  - Quarto
 
 ## Instructions
 
   - Open the notebook `assignment/climate-change.qmd` in RStudio
   - Work through the exercises described in the notebook.
-  - `knit` + commit output files to GitHub
+  - `Render` + commit output files to GitHub
 
 ## Context
 
+This module has been developed a module in a junior-level Environmental Data Science course at Virginia Tech.  The course is required for majors in the Environmental Data Science degree.  The course has a pre-requisite course that introduces students to tidyverse concepts.  It assumes that students have a set of Git and GitHub and understand how to commit and push through Rstudio.
 
 ## Timeframe
 
-  - This module is usually delivered over 1 week (2 75-minute class sessions).
+1-week (2 75-minute class periods are allocated to this module)
 
-
-## Background Reading, Video & Exercises
+## Background Reading
 
 The background reading is embedded in the assignment Quarto document as links to the relevant sections of [R for Data Science book (2nd edition)](https://r4ds.hadley.nz) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund.
