@@ -170,9 +170,8 @@ The broad question is: how do recent atmospheric CO2 levels compare to historica
 
 - Read in and prepare data for analysis.   
 - Reverse the ordering of the ice core year data so that each measurement is associated with calender year (it is ok to have negative years for years before 0 A.D.).
-- Plot data so that the most recent time period is on the right side of the plot.
 - Combine this time series with the Mauna Loa data (the Warm-up exercise in this assignment).  You will use "bind_rows()".
-- Plot the combined data. 
+- Plot the combined data so that the most recent time period is on the right side of the plot.
   
 Note: for full credit the most recent time period must be on the right side of the plot; if you are unable to do this, partial credit is provided.      
 
