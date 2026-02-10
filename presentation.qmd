@@ -6,32 +6,32 @@ format:
 editor: visual
 ---
 
+## What controls the temperature of an object?
+
+-   Incoming energy
+
+-   Outgoing energy
+
+-   The heat capacity of the object (how much energy is needed to heat a degree)
+
+-   Incoming \> Outgoing = warming
+
+-   Incoming \< Outgoing = cooling
+
 ## What controls Earth's temperature?
 
--   Amount of energy received by the sun
--   Reflection vs absorption of sun's energy (albedo)
--   The amount of energy retained by the earth's atmosphere.
+-   Incoming: energy received by the sun
+-   Outgoing: reflection of sun's energy (albedo)
+-   Outgoing: Energy released by Earth
+-   Net: The amount of energy retained by the earth's atmosphere.
 
-## Amount of energy received by the sun
-
-::::: columns
-::: {.column width="40%"}
--   The path of the earth around the sun and the earth's angle vary at different time scales.
--   Has been an important influence for glacial periods (every 100,000 years) over the past 500,000 years.
--   Milankovitch Cycles
-:::
-
-::: {.column width="60%"}
-![](img/solar-cycles1.png){fig-alt="image different components of Milankovitch Cycles"}
-:::
-:::::
-
-## Amount of energy received from the sun?
+## Amount of energy received from the sun
 
 ::::: columns
 ::: {.column width="40%"}
 -   Sunspots -- reflect the magnetic activity of the sun and the sun's brightness.
 -   Approximately an 11-year cycle
+-   Not getting brighter over last 30 years
 :::
 
 ::: {.column width="60%"}
@@ -39,10 +39,24 @@ editor: visual
 :::
 :::::
 
+## Amount of energy received by the sun
+
+::::: columns
+::: {.column width="70%"}
+-   The path of the earth around the sun and the earth's angle vary at different time scales.
+-   Has been an important influence for glacial periods (every 100,000 years) over the past 500,000 years.
+-   Milankovitch Cycles
+:::
+
+::: {.column width="30%"}
+![](img/solar-cycles1.png){fig-alt="image different components of Milankovitch Cycles"}
+:::
+:::::
+
 ## Amount of energy reflected to space {.smaller}
 
 ::::: columns
-::: {.column width="40%"}
+::: {.column width="70%"}
 -   Albedo (reflectivity)
 -   Lighter things reflect more light energy
 -   Darker things absorb more light energy (heat)
@@ -50,17 +64,28 @@ editor: visual
 -   Aerosols lead to increased reflection of solar radiation (Volcanic activity -\> cooling).
 :::
 
-::: {.column width="60%"}
+::: {.column width="30%"}
 ![](img/albedo.png){fig-alt="diagram of earth's albedo"}
 :::
 :::::
 
 ## Amount of energy retained by the atmosphere
 
+-   Solar energy absorbed by land/oceans is converted into heat
+-   Objects with heat release energy in proportion to their heat
+-   Sun = HOT, Earth = Not Hot, so energy release by energy is different than heat released by sun
+
+
+## Amount of energy retained by the atmosphere
+
 ::::: columns
 ::: {.column width="40%"}
--   The greenhouse effect: Energy is retained.
--   Gases in the atmosphere trap heat (CO2, CH4, NOxs, CFCs)
+-   The greenhouse effect: Some of energy in the form released by earth surface is absorbed by the atmosphere
+-   Gases in the atmosphere trap heat (H20, CO2, CH4, NOxs, CFCs)
+-   Trapped heat is remitted by the atmosphere towards the surface
+-   Now the surface is heated by sun and the energy from the gases in the atmosphere
+-   Greenhouse effect is good because earth would be too cold without it! 
+-   But changing due to changing gases in the atmosphere
 :::
 
 ::: {.column width="60%"}
@@ -72,13 +97,31 @@ editor: visual
 
 ![](img/energy-balance1.png){fig-alt="diagram of global energy balance"}
 
-## What is "global temperature"?
+## Why does climate change matter?
+
+- Climate has always changed and will always change
+- Historically major climate change has been associated with massive changes in life on earth
+  - Alaska was subtropical when early humans cross the land-bridge
+  - The entire Earth has been cover with ice in the past
+  - If change is faster than life can adapt or evolve, then challenging for current life
+  
+  
+## Why does climate change matter?
+
+- Do we want to want live in the warmer world?
+  - What does a warmer world look like? (Impacts)
+  - Winners and losers
+- If humans are causing it, then we can stop causing it.
+  - Should we? At what costs?
+  - Winners and losers
+
+## Data: What is "global temperature"?
 
 Global surface temperature is calculated by averaging the temperatures over sea and land. Communicated as an anomaly.
 
 ![](img/global-temp-map.png){fig-alt="global map of surface temperature"}
 
-## What is "global temperature"?
+## Data: What is "global temperature"?
 
 -   Many groups across the world have generated datasets of global temperature
 -   One example: Hansen et al. 2010 from Goddard Institute for Space Studies, NASA http://pubs.giss.nasa.gov/docs/2010/2010_Hansen_etal_1.pdf
@@ -87,6 +130,12 @@ Global surface temperature is calculated by averaging the temperatures over sea 
 -   Use bucket (ships) and satellite measurements calibrated with ship measurements for the ocean
 
 ## What would cause global temperature to change?
+
+-  Sun increasing output (Not likely)
+-  Earth relatively closer to the sun (not the current cycle)
+-  Color of the earth getting darker (actually getting brighter due to agriculture)
+-  More greenhouse gasses in the atmosphere (👈)
+   - Primarily from fossil fuel composition
 
 ## How do we measure atmospheric CO2?
 
@@ -107,7 +156,7 @@ Global surface temperature is calculated by averaging the temperatures over sea 
 -   The earth is 4.54 billion years old
 -   The last ice age was 110,000 to 12,000 years ago, with peak glaciation 22,000 years ago
 -   The world looked different!
-    -   Northern USA and Canada covered by ice (grey)
+    -   Northern USA and Canada covered by ice
     -   Southern US covered by taiga (coniferous forest) and grassland
     -   Southern Europe was tundra
 

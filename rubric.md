@@ -1,6 +1,6 @@
 # Climate Module: Detailed Rubric
 
-## Module weight: X pts
+## Module weight: 30 pts
 
 Question 1:
 
@@ -96,7 +96,7 @@ Quarto
 
 GitHub
 
--   Full Credit: assignment found on the course GitHub, multiple commits provided, and HTML committed
+-   Full Credit: assignment found on the course GitHub, multiple commits provided, and HTML committed.  A link to the GitHub repository is provided in the HTML submitted to Canvas.
 
 -   Partial Credit: Assignment found on course GitHub, but only a single commit was provided (no evidence that the student saved and committed progress) or missing HTML on GitHub.
 
